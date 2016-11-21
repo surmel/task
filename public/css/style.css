@@ -1,0 +1,51 @@
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+header{
+    width: 100%;    
+    background: #000;
+}
+
+.header_text{
+    display: inline-block;
+    color:#fff;
+    font-size:35px;
+    padding:10px;
+}
+
+.applicant{
+    float:left;
+}
+.task{
+    float:right;
+}
+.search{
+    text-align: center;
+    margin-top:70px;
+}
+.addHuman {
+    position:relative;
+    width: 350px;
+    padding: 30px;
+    border-radius:5px;
+    background: rgba(0,0,0,0.5);
+    margin:50px auto;
+}
+#file{
+    display:none;
+}
+.center{
+    text-align: center;
+}
+
+.errors {
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.help-block{
+    color: red;
+}
